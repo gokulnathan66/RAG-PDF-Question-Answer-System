@@ -1,20 +1,20 @@
-# 📄 RAG-based Document Question-Answering System
+#  RAG-based Document Question-Answering System
 
 This project is a **Retrieval-Augmented Generation (RAG)** based QA system that allows users to **upload a PDF document** and **ask questions** about its contents. It leverages **LangChain**, **FAISS**, and **Hugging Face Transformers** to deliver accurate answers based on the uploaded document.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📄 Upload any PDF document.
-- 🔍 Ask natural language questions based on the document content.
-- 🤖 Uses semantic search to retrieve relevant text chunks.
-- 💬 Answers generated using a pre-trained FLAN-T5 model.
-- 🌐 Interactive UI built with Gradio.
+-  Upload any PDF document.
+-  Ask natural language questions based on the document content.
+-  Uses semantic search to retrieve relevant text chunks.
+-  Answers generated using a pre-trained FLAN-T5 model.
+-  Interactive UI built with Gradio.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component      | Description |
 |----------------|-------------|
@@ -27,7 +27,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based QA system that 
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 
 1. **Upload PDF**: The system loads and splits the document into manageable chunks.
 2. **Embed Chunks**: Each chunk is embedded using a Sentence Transformer model.
