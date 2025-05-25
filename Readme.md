@@ -37,7 +37,7 @@ This project is a **Retrieval-Augmented Generation (RAG)** based QA system that 
 
 ---
 
-## 🧪 Installation
+## Installation
 
 ```bash
 pip install langchain faiss-cpu sentence-transformers transformers pypdf gradio
